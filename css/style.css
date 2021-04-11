@@ -8,12 +8,16 @@
 #navbar{
     display: flex;
     align-items: center;
-}
+    position: relative;
+    top: 0px;
+    }
 
 #navbar::before{
     content: "";
     background-color: black;
     position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -29,9 +33,7 @@
 }
 
 /* Navigation bar: List Styling */
-#navbar{
-    position: relative;
-}
+
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
@@ -61,7 +63,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 630px;
+    height: 440px;
     justify-content: center;
     align-items: center;
 }
@@ -70,7 +72,9 @@
     content: "";
     position: absolute;
     background: url(../1.jpg) no-repeat center center/cover;
-    height: 100%;
+    top: 0px;
+    left: 0px;
+    height: 90%;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -90,7 +94,7 @@
 
 /* service section */
     #services{
-        margin: 34px;
+        /* margin: 0px; */
         display: flex;
     }
     #services .box{
@@ -117,16 +121,38 @@
 
 
 
+    /* Clients Section */
+    #client-section{
+        height: 344px;
+
+    }
+    #client{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #client-item{
+        padding: 34px;
+    }
+    #client img{
+        height: 150px;
+        border: 0.5px solid white;
+        border-radius: 15px;
+    }
+
+
+
 
  /* Utility classes */
 
  .h-primary{
      font-size: 3.8rem;
      padding: 20px;
+     font-family:'Bree Serif', serif; 
  }
  
  .h-secondary{
-    font-size: 2.8rem;
+    font-size: 2.3rem;
     padding: 20px;
     font-family: 'Bree Serif', serif;
 }
