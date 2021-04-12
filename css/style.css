@@ -93,7 +93,7 @@
 }
 
 /* service section */
-.services-container{
+#services-container{
     background:url(../7.JPG) no-repeat center center/cover;
 }
     #services{
@@ -225,5 +225,17 @@
 .center{
     text-align: center;
 }
+.submit{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(83, 80, 75);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-family: 'Bree Serif', serif;
+    cursor: pointer;
+    align-items: center;
+}
+
 
 
