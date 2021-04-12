@@ -121,28 +121,15 @@
         font-family: 'Bree Serif', serif;
     
     }
-    /* Contact section */
-    #contact{
-        position: relative;
-    }
-    #contact::before{
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        opacity: 0.7;
-        background:url(../contact.jpg) no-repeat center center/cover;
-    }
-
-
-
-
+    
+    
+    
+    
     /* Clients Section */
     #client-section{
         height: 344px;
         position: relative;
-
+        
     }
     #client-section::before{
         content: "";
@@ -152,7 +139,7 @@
         width: 100%;
         z-index: -1;
         opacity: 0.50;
-
+        
     }
     #client{
         display: flex;
@@ -167,10 +154,51 @@
         border: 0.5px solid white;
         border-radius: 15px;
     }
+    
+    
+    
+    
+    /* Contact section */
+    #contact{
+        position: relative;
+    }
+    #contact::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+        background:url(../contact.jpg) no-repeat center center/cover;
+    }
+    #conatct-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
+    #conatct-box input,
+     #conatct-box textarea{
+        height: 100%;
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    }
+    #conatct-box form{
+        width: 40%;
+    }
+    #conatct-box label{
+        font-size: 1.3rem;
+        font-family: 'Bree Serif', serif;
+    }
 
-
-
-
+    /* footer */
+    footer{
+        background-color: black;
+        color: white;
+        padding: 9px 20px;
+    }
  /* Utility classes */
 
  .h-primary{
