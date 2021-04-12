@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 440px;
+    height: 578px;
     justify-content: center;
     align-items: center;
 }
@@ -74,7 +74,7 @@
     background: url(../1.jpg) no-repeat center center/cover;
     top: 0px;
     left: 0px;
-    height: 90%;
+    height: 675px;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -94,7 +94,7 @@
 
 /* service section */
 .services-container{
-    background-color: gainsboro;
+    background:url(../7.JPG) no-repeat center center/cover;
 }
     #services{
         /* margin: 0px; */
@@ -121,19 +121,34 @@
         font-family: 'Bree Serif', serif;
     
     }
+    /* Contact section */
+    #contact{
+        position: relative;
+    }
+    #contact::before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+        background:url(../contact.jpg) no-repeat center center/cover;
+    }
+
 
 
 
     /* Clients Section */
     #client-section{
         height: 344px;
+        position: relative;
 
     }
     #client-section::before{
         content: "";
         position: absolute;
-        background: url(../3.jpg) no-repeat center center/cover;
-        height: 90%;
+        background: url(../6.jpg) no-repeat center center/cover;
+        height: 100%;
         width: 100%;
         z-index: -1;
         opacity: 0.50;
